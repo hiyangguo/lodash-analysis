@@ -34,22 +34,46 @@
   var VERSION = '4.16.2';
 
   /** Used as the size to enable large array optimizations. */
+  /**
+   * 作为优化大数组的大小
+   * @type {number}
+   */
   var LARGE_ARRAY_SIZE = 200;
 
   /** Error message constants. */
+  /**
+   * 错误信息常量
+   * @type {string}
+   */
   var CORE_ERROR_TEXT = 'Unsupported core-js use. Try https://github.com/es-shims.',
     FUNC_ERROR_TEXT = 'Expected a function';
 
   /** Used to stand-in for `undefined` hash values. */
+  /**
+   * 用作`undefined`的哈希值替身
+   * @type {string}
+   */
   var HASH_UNDEFINED = '__lodash_hash_undefined__';
 
   /** Used as the maximum memoize cache size. */
+  /**
+   * 用作最大的缓存大小
+   * @type {number}
+   */
   var MAX_MEMOIZE_SIZE = 500;
 
   /** Used as the internal argument placeholder. */
+  /**
+   * 用作内部参数的占位符
+   * @type {string}
+   */
   var PLACEHOLDER = '__lodash_placeholder__';
 
   /** Used to compose bitmasks for function metadata. */
+  /**
+   * 用来构成方法元数据的位掩码
+   * @type {number}
+   */
   var BIND_FLAG = 1,
     BIND_KEY_FLAG = 2,
     CURRY_BOUND_FLAG = 4,
@@ -62,10 +86,18 @@
     FLIP_FLAG = 512;
 
   /** Used to compose bitmasks for comparison styles. */
+  /**
+   * 用来构成比较样式的位掩码
+   * @type {number}
+   */
   var UNORDERED_COMPARE_FLAG = 1,
     PARTIAL_COMPARE_FLAG = 2;
 
   /** Used as default options for `_.truncate`. */
+  /**
+   * 用作`_.truncate`的默认项
+   * @type {number}
+   */
   var DEFAULT_TRUNC_LENGTH = 30,
     DEFAULT_TRUNC_OMISSION = '...';
 
